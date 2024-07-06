@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navebar{
+    height:60px;
+    background-color: #0F1111;
+    color: white; 
+    display: flex;   
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nave-logo{
+    height: 50px;
+    width: 113px;
+}
+.logo{
+   background-image:url(logo\ 4.png);
+   background-size:cover;
+   
+   height: 50px;
+   width: 113px;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+.address-first{
+    font-size: 0.85rem;
+    color: #CCCCCC;
+    margin-left: 19px;
+    margin-top: 9px;
+}
+.address-sec{
+    font-size: 1rem;
+    color: #FFFFFF;
+    margin-left: 3px;
+    margin-top: 8px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+    margin-left: 3px;
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+.select-search{
+    background-color: #f3f3f3;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    width: 50px;
+    text-align: center;
+    border: none;
+}
+.search-in{
+    border: none;
+    width: 100%;
+    font-size: 1rem;
+}
+.search-logo{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+span{
+    font-size: 0.7rem;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.nav-sec{
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+.navecart i{
+    font-size: 35px;
+}
+.navecart{
+    font-size: 0.85rem;
+    font-weight: bold
+}
+/* Secound Bar*/
+.panel{
+ height: 40px;
+ background-color: #222f3d;
+ display: flex;
+ color: white;
+ align-items: center;
+ justify-content: space-evenly;
+}
+.panel-opt p{
+    display: inline-block;
+    margin-right: 7px;
+}
+.panel-opt{
+    width: 95%;    
+}
+.panel-all{
+    font-weight: bold;
+}
+.hero-section{
+    background-image: url(main\ pic.jpg);
+    background-size: cover;
+    height: 350px;
+}
+.hero-msg{
+    background-color: white;
+    color: black;
+}
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #0e87cc;
+}
+.box{
+    height: 270px;
+    width: 23%;
+    background-color: white;
+    
+    padding: 20px 0px 15px;
+    margin-top: 5px;
+}
+.box-image{
+    height:230px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
+    justify-content: center;
+    background-size:contain;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content p{
+    color: #0e87cc;
+}
+/*Footer*/
+footer{
+    margin-top:15px ;
+}
+.footpanel-1{
+    background-color: #37475a;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1rem;
+}
+.footpanel-2{
+    background-color: #222f3d;
+    height: 500px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 10px;
+}
+ul p{
+    font-weight: bold;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 20px;
+    color: #dddddd;
+}
+.footpanel-3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white ;
+    height: 78px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-6{
+    background-image:url(logo\ 6.png);
+    background-size:cover;
+    
+    height: 50px;
+    width: 113px;
+}
+.language{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 15px;
+    
+}
+.logo-globle{
+    margin-top: 10px;
+}
+.footpanel-4{
+    background-color: #0F1111;
+color:  #dddddd;
+height: 80px;
+font-size: 0.85rem;
+text-align: center;
+
+}
+.pages{
+
+    padding-top: 25px;
+    
+}
+.copyright{
+
+    padding-top: 5px;
+}
+.mine{
+    margin-top: 4px;
+    font-weight: bolder;
+}
+
+
